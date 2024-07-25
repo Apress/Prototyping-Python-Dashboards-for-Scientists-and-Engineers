@@ -1,0 +1,137 @@
+.content {
+background: #555555;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+
+grid-template-rows: 150px 480px 480px 480px 500px 200px;
+grid-gap: 1%;
+padding: 1%;
+border-radius: 10px;
+overflow: hidden;
+}
+
+
+/* ROW 1 - Banner */
+
+.banner {
+  max-width: 100%;
+  max-height: auto;
+  grid-column-start: 1;
+  grid-column-end: 7;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  background: #bab829;
+  padding: 2%;
+  color: #1111ff;
+  align-content: center;
+  font-size: 100%;
+  border-radius: 10px;
+  border:1px solid white;
+}
+
+/* ROW 2 year/apt selection and time series chart */
+
+.parameter_selections {
+  background: #aaaaff;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  padding: 3%;
+  padding-right: 5%;
+  color: #444444;
+  font-size: 105%;
+  border-radius: 10px;
+  border:1px solid white;
+}
+
+.chart{
+ background: #aaaaff;
+  grid-column-start: 3;
+  grid-column-end: 7;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  border-radius: 10px;
+  border:1px solid white;
+  overflow: hidden;
+  padding: 1%;
+}
+
+/* Row 3 */
+
+.instructions {
+ background: #eeaaff;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  border-radius: 10px;
+  border:1px solid white;
+  overflow: hidden;
+  padding: 1%;
+}
+
+.monthly_chart{
+ background: #aaaaff;
+  grid-column-start: 3;
+  grid-column-end: 5;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  border-radius: 10px;
+  border:1px solid white;
+  overflow: hidden;
+  padding: 1%;
+}
+
+.weekly_chart{
+ background: #aaaaff;
+  grid-column-start: 5;
+  grid-column-end: 7;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  border-radius: 10px;
+  border:1px solid white;
+  overflow: hidden;
+  padding: 1%;
+}
+
+/* Row 4 - Spectrum */
+.spectrum_instructions {
+ background: #aaddbb;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 4;
+  grid-row-end: 5;
+  border-radius: 10px;
+  border:1px solid white;
+  overflow: hidden;
+  padding: 1%;
+}
+
+.spectrum_chart{
+ background: #aaddbb;
+  grid-column-start: 3;
+  grid-column-end: 7;
+  grid-row-start: 4;
+  grid-row-end: 5;
+  border-radius: 10px;
+  border:1px solid white;
+  overflow: hidden;
+  padding: 1%;
+}
+
+
+
+
+.footer{
+ grid-column-start: 1;
+ grid-column-end: 7;
+ grid-row-start: 6;
+ grid-row-end: 7;
+ border-radius: 10px;
+ border:1px solid white;
+ padding: 3%;
+ padding-right: 5%;
+  background: #89b376;
+}
+
